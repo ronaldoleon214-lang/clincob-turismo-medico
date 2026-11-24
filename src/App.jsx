@@ -148,9 +148,9 @@ export default function App() {
           </nav>
 
           <div className="header-actions">
-            <a href={CONTACT_INFO.phoneHref} className="btn btn-secondary">
+            <a href={CONTACT_INFO.phoneHref} className="btn btn-secondary" aria-label="Llamar a CLINCOB al (993) 310 0430">
               <Phone size={15} />
-              {CONTACT_INFO.phoneDisplay}
+              Contactar
             </a>
             <a href="#agendar" className="btn btn-primary">
               Agendar Valoración
