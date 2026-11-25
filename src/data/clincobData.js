@@ -31,15 +31,15 @@ export const ITINERARY_DAYS = [
   {
     id: 'dia-1',
     dayLabel: 'Día 1 · Llegada',
-    title: 'Recepción y Hospedaje en Hotel Staybridge Suites',
+    title: 'Recepción y Hospedaje en Hotel 5 Estrellas',
     summary:
-      'Llegas a Villahermosa (en avión o vehículo propio, solo o con tu acompañante). Tu habitación queda coordinada cerca de Hospital Ángeles para tu descanso previo.',
+      'Llegas a Villahermosa (en avión o vehículo propio, solo o con tu acompañante). Tu habitación en hotel de prestigio queda coordinada para tu descanso previo.',
     rows: [
       {
         fecha: 'Día 1',
         hora: 'Check-in',
-        lugar: 'Hotel Staybridge Suites',
-        actividad: 'Hospedaje coordinado para paciente y acompañante (habitación lista a su nombre).',
+        lugar: 'Hotel 5 Estrellas',
+        actividad: 'Hospedaje coordinado en hotel de prestigio para paciente y acompañante.',
         highlight: true,
       },
     ],
@@ -249,7 +249,7 @@ export const TEAM_MEMBERS = [
 export const FAQS = [
   {
     q: '¿Puedo viajar acompañado de un familiar?',
-    a: 'Sí. De hecho, en nuestro itinerario de Turismo Médico coordinamos tu hospedaje en Hotel Staybridge Suites contemplando a tu acompañante (la habitación puede quedar a su nombre) para que estés respaldado desde tu llegada hasta tu regreso.',
+    a: 'Sí. De hecho, en nuestro itinerario de Turismo Médico coordinamos tu hospedaje en hoteles de prestigio 5 estrellas contemplando a tu acompañante (la habitación puede quedar a su nombre) para que estés respaldado desde tu llegada hasta tu regreso.',
   },
   {
     q: '¿Cuántos días necesito permanecer en Villahermosa?',
@@ -270,28 +270,28 @@ export const ORIGIN_CITIES = [
     id: 'coatzacoalcos',
     label: 'Coatzacoalcos / Veracruz',
     travelMode: 'Traslado terrestre (~2 hrs en auto propio)',
-    stayNights: '4 noches en Staybridge Suites (habitación para ti y tu acompañante)',
+    stayNights: '4 noches en hotel de prestigio 5 estrellas (habitación para ti y tu acompañante)',
     returnNote: 'Regreso al Día 5 tras retiro de drenaje en Consultorio 540.',
   },
   {
     id: 'cdmx',
     label: 'CDMX / Centro',
     travelMode: 'Vuelo directo a Villahermosa (~1h 20m)',
-    stayNights: '4 noches en Staybridge Suites a minutos de Hospital Ángeles',
+    stayNights: '4 noches en hotel 5 estrellas a minutos de la sede quirúrgica',
     returnNote: 'Alta quirúrgica supervisada antes de tu vuelo de regreso.',
   },
   {
     id: 'sureste',
     label: 'Mérida / Cancún / Chiapas',
     travelMode: 'Vuelo corto o carretera hacia Villahermosa',
-    stayNights: '4 noches en Staybridge Suites con opción de acompañante',
+    stayNights: '4 noches en hotel de prestigio 5 estrellas con opción de acompañante',
     returnNote: 'Seguimiento remoto de Nutrición y Psicología por 3 meses.',
   },
   {
     id: 'extranjero',
     label: 'Monterrey / EE.UU. / Otro',
     travelMode: 'Conexión aérea al Aeropuerto de Villahermosa (VSA)',
-    stayNights: 'Estancia coordinada en Staybridge Suites + 24h en Hospital Ángeles',
+    stayNights: 'Estancia coordinada en hotel 5 estrellas + 24h de internamiento hospitalario',
     returnNote: 'Coordinación completa de estudios previos antes de viajar.',
   },
 ];

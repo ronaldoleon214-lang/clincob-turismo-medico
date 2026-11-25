@@ -198,29 +198,29 @@ export default function App() {
         <div className="container hero-split">
           <div>
             <div className="hero-kicker">
-              Turismo Médico Bariátrico · Villahermosa, Tabasco
+              Cirugía Bariátrica Segura · Turismo Médico Villahermosa
             </div>
             <h1 className="hero-title">
-              Tu cirugía bariátrica en <em>Hospital Ángeles</em>, con hotel y viaje coordinados.
+              Recupera tu salud en <em>manos certificadas</em>, con todo tu viaje resuelto.
             </h1>
 
             <ul className="hero-checklist">
               <li>
                 <CheckCircle2 size={18} color="#2dd4bf" style={{ flexShrink: 0 }} />
                 <span>
-                  <strong>Dirigido por el Dr. Roberto Cisneros De Ajuria</strong> (Manga, Bypass o Balón)
+                  <strong>Cirujano Certificado</strong> por el Consejo Mexicano de Cirugía General y miembro <strong>IFSO</strong>
                 </span>
               </li>
               <li>
                 <CheckCircle2 size={18} color="#2dd4bf" style={{ flexShrink: 0 }} />
                 <span>
-                  <strong>Hospedaje en Hotel Staybridge Suites</strong> para ti y tu acompañante
+                  <strong>Hospédate en hoteles de prestigio 5 estrellas</strong> con comodidad para ti y tu acompañante
                 </span>
               </li>
               <li>
                 <CheckCircle2 size={18} color="#2dd4bf" style={{ flexShrink: 0 }} />
                 <span>
-                  <strong>Itinerario exacto de 5 días</strong> desde tu llegada hasta tu regreso a casa
+                  <strong>Acompañamiento médico directo</strong> del Dr. Roberto Cisneros antes, durante y después de tu cirugía
                 </span>
               </li>
             </ul>
@@ -231,18 +231,18 @@ export default function App() {
                 Calcular mi IMC y Simular Viaje
               </a>
               <a href="#agendar" className="btn btn-ghost-light">
-                Agendar Valoración
+                Agendar Valoración Gratuita
               </a>
             </div>
 
             <div className="hero-metrics">
               <div className="hero-metric">
-                <strong>5 Días</strong>
-                <span>Estancia promedio en Villahermosa</span>
+                <strong>+300</strong>
+                <span>Casos de éxito comprobados</span>
               </div>
               <div className="hero-metric">
-                <strong>+300</strong>
-                <span>Casos de éxito avalados</span>
+                <strong>100%</strong>
+                <span>Protocolo laparoscópico seguro</span>
               </div>
               <div className="hero-metric">
                 <strong>3 Meses</strong>
@@ -262,9 +262,9 @@ export default function App() {
             </div>
             <div className="hero-doc-caption">
               <div>
-                <small>Director Médico · Cirujano Titular</small>
+                <small>Certificación Vigente · Cirujano Titular</small>
                 <h2>{DOCTOR_PROFILE.name}</h2>
-                <p>Certificado por el Consejo Mexicano de Cirugía General · Miembro IFSO</p>
+                <p>Director Médico CLINCOB · Más de 20 años de trayectoria quirúrgica</p>
               </div>
               <a
                 href="#doctor"
@@ -281,19 +281,19 @@ export default function App() {
           <div className="container concierge-strip-grid">
             <div className="concierge-item">
               <span className="concierge-num">01</span>
-              <span>Llegada y hospedaje en Staybridge Suites</span>
+              <span>Hospedaje en hoteles 5 estrellas</span>
             </div>
             <div className="concierge-item">
               <span className="concierge-num">02</span>
-              <span>Valoración y cirugía en Hospital Ángeles</span>
+              <span>Valoración y cirugía certificada</span>
             </div>
             <div className="concierge-item">
               <span className="concierge-num">03</span>
-              <span>Retiro de drenaje y regreso seguro</span>
+              <span>Recuperación supervisada y alta segura</span>
             </div>
             <div className="concierge-item">
               <span className="concierge-num">04</span>
-              <span>Seguimiento nutricional y psicológico 3 meses</span>
+              <span>Seguimiento nutricional y médico 3 meses</span>
             </div>
           </div>
         </div>
@@ -399,12 +399,12 @@ export default function App() {
           <div className="experience-grid">
             <article className="exp-photo-card">
               <span className="exp-step-pill">01 · Hospedaje</span>
-              <img src="/assets/hotel-suite.jpg" alt="Hospedaje en Hotel Staybridge Suites" />
+              <img src="/assets/hotel-suite.jpg" alt="Hospedaje en hotel de prestigio 5 estrellas" />
               <div className="exp-photo-grad" />
               <div className="exp-photo-content">
-                <small>Staybridge Suites Villahermosa</small>
+                <small>Hoteles de Prestigio 5 Estrellas</small>
                 <h3>Suite para Ti y tu Acompañante</h3>
-                <p>Descanso cómodo a minutos del hospital desde tu llegada.</p>
+                <p>Hospédate en hoteles de prestigio a minutos del hospital desde tu llegada.</p>
               </div>
             </article>
 
@@ -595,7 +595,7 @@ export default function App() {
               <div className="nights-strip">
                 <div className="night-pill">
                   <small>Noche 1</small>
-                  <span>Staybridge Suites</span>
+                  <span>Hotel 5 Estrellas</span>
                 </div>
                 <div className="night-pill">
                   <small>Noche 2</small>
@@ -631,7 +631,7 @@ export default function App() {
                   <strong style={{ color: 'var(--teal-400)' }}>Hospedaje:</strong>{' '}
                   {withCompanion
                     ? activeCity.stayNights
-                    : '4 noches en Staybridge Suites (habitación individual)'}
+                    : '4 noches en hotel de prestigio 5 estrellas (habitación individual)'}
                 </div>
                 <div>
                   <strong style={{ color: 'var(--teal-400)' }}>Alta y Regreso:</strong>{' '}
@@ -688,8 +688,8 @@ export default function App() {
               <h3>{activeDay.title}</h3>
               <p>
                 Torre de Especialidades Hospital Ángeles Piso 5, Consultorio 540 · Paseo Usumacinta
-                2085, Col. Tabasco 2000. Hospedaje coordinado en Hotel Staybridge Suites (incluye
-                opción para acompañante).
+                2085, Col. Tabasco 2000. Hospedaje coordinado en hoteles de prestigio 5 estrellas
+                (incluye opción para acompañante).
               </p>
             </div>
 
@@ -1103,7 +1103,7 @@ export default function App() {
               </p>
               <p style={{ fontSize: '0.88rem', display: 'flex', gap: '8px' }}>
                 <Building2 size={18} color="#2dd4bf" style={{ flexShrink: 0 }} />
-                <span>Hospedaje aliado: Hotel Staybridge Suites Villahermosa</span>
+                <span>Hospedaje aliado en hoteles de prestigio 5 estrellas</span>
               </p>
             </div>
 
